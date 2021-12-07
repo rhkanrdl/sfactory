@@ -2194,7 +2194,7 @@ body header .container button.main-menu {
   font-size: 0;
   border: none;
   background: none;
-  line-height: 60px;
+  height: 60px;
 }
 
 @media (min-width: 1200px) {

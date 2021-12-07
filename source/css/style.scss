@@ -123,7 +123,7 @@ body {
         font-size: 0;
         border: none;
         background: none;
-        line-height: 60px;
+        height: 60px;
 
         @media (min-width: $screen-size-pc) {
           top:90px;
@@ -1580,10 +1580,12 @@ body {
         @media (min-width: $screen-size-pc) {
             
             nav#sub-menu {
+
               position:absolute;
               top:0;
               left:0;
               right:0;
+
                 ul {
                     list-style: none;
                     margin: -35px 0 30px;
