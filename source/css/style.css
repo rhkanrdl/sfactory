@@ -5698,7 +5698,7 @@ body footer#footer div.container address p {
 }
 
 body footer#footer div.container address p span {
-  display: inline-block;
+  display: block;
 }
 
 @media (min-width: 1200px) {

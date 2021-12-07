@@ -3610,7 +3610,7 @@ body {
           margin: 0;
 
           span {
-            display: inline-block;
+            display: block;
 
             @media (min-width: $screen-size-pc) {
               display: inline;
