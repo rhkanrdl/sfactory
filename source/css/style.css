@@ -5697,6 +5697,10 @@ body footer#footer div.container address p {
   margin: 0;
 }
 
+body footer#footer div.container address p a {
+  color: #fff;
+}
+
 body footer#footer div.container address p span {
   display: block;
 }
