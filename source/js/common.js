@@ -13,6 +13,11 @@ $(function(){
     });
     
 
+
+    $(".faqList li h5").on("click", function(){
+        $(".faqList li h5").removeClass("on");
+        $(this).addClass("on");
+    });
     
     
     $("section.sub-content #sub-menu li.on a").on("click", function(e){
