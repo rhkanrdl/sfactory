@@ -3562,6 +3562,10 @@ body div#content.sub section.sub-content div.container {
     left: 0;
     right: 0;
   }
+  body div#content.sub section.sub-content div.container nav#sub-menu.none {
+    height: 50px;
+    background: #eee;
+  }
   body div#content.sub section.sub-content div.container nav#sub-menu ul {
     position: relative;
     list-style: none;
@@ -3625,6 +3629,11 @@ body div#content.sub section.sub-content div.container {
     left: 0;
     right: 0;
   }
+  body div#content.sub section.sub-content div.container nav#sub-menu.none {
+    height: 74px;
+    background: #eee;
+    margin: -35px 0 30px;
+  }
   body div#content.sub section.sub-content div.container nav#sub-menu ul {
     list-style: none;
     margin: -35px 0 30px;
@@ -3662,6 +3671,24 @@ body div#content.sub section.sub-content div.container {
     font-size: 24px;
     border-color: #111C2A;
   }
+}
+
+body div#content.sub section.sub-content div.container h4.stitle {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h4.stitle {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container h4.stitle small {
+  font-size: inherit;
+  font-weight: 400;
+  color: crimson;
 }
 
 body div#content.sub section.sub-content div.container div.board-tools {
@@ -4951,6 +4978,757 @@ body div#content.sub section.sub-content div.container table.calendar tbody tr t
 
 body div#content.sub section.sub-content div.container table.calendar tbody tr td:last-child p {
   color: blue;
+}
+
+body div#content.sub section.sub-content div.container ul.step {
+  list-style: none;
+  margin: 0 10px 20px;
+  padding: 0;
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step {
+    margin: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.step li {
+  display: inline-block;
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step li {
+    position: relative;
+    font-size: 18px;
+    background: #eee;
+    padding: 20px 0 20px 100px;
+    text-align: left;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.step li strong {
+  display: block;
+  font-size: 14px;
+  background: #eee;
+  border-radius: 30px;
+  padding: 10px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step li strong {
+    padding: 0 0 6px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.step li i {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step li i {
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 50px;
+    color: #ccc;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step li.active {
+    background: #0a79ce;
+    color: #fff;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.step li.active strong {
+  color: #fff;
+  background: #0a79ce;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.step li.active strong {
+    background: inherit;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.step li.active i {
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container div.agree {
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.agree {
+    padding: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.agree div.textarea {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 140px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.agree div.textarea {
+    height: 200px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.agree p.check {
+  position: relative;
+  margin: 10px 0 20px;
+  padding: 0 0 0 26px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.agree p.check {
+    font-size: 16px;
+    margin: 10px 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.agree p.check input {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+}
+
+body div#content.sub section.sub-content div.container div.agree p.check.all {
+  padding: 5px 5px 5px 32px;
+  background: #efefef;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.agree p.check.all {
+    padding: 10px 10px 10px 36px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.agree p.check.all input {
+  left: 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.agree p.check.all input {
+    left: 10px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type {
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type {
+    padding: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type h4 {
+  font-size: 22px;
+  margin: 40px 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type h4 {
+    font-size: 26px;
+    margin: 60px 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type p.text {
+  margin: 0 0 40px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type p.text {
+    margin: 0 0 50px;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type p.text i {
+  font-size: 64px;
+  display: block;
+  margin: 0 0 20px;
+  color: #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type p.text i {
+    font-size: 88px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type p.text span {
+  display: block;
+  word-break: keep-all;
+}
+
+body div#content.sub section.sub-content div.container div.member-type a {
+  display: block;
+  margin: 0 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 50px) / 3);
+    margin: 0 5px;
+    text-align: left;
+    padding: 20px 30px 30px 120px;
+    min-height: 178px;
+    position: relative;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type a i {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type a i {
+    display: block;
+    font-size: 60px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type a strong {
+  display: block;
+  padding: 0 0 10px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.member-type a strong {
+    font-size: 28px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.member-type a span {
+  word-break: keep-all;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+body div#content.sub section.sub-content div.container div.member-type a span u {
+  display: block;
+  text-decoration: none;
+}
+
+body div#content.sub section.sub-content div.container div.member-type a:nth-of-type(1) {
+  background: #50A639;
+}
+
+body div#content.sub section.sub-content div.container div.member-type a:nth-of-type(2) {
+  background: #4D468B;
+}
+
+body div#content.sub section.sub-content div.container div.member-type a:nth-of-type(3) {
+  background: #555555;
+}
+
+body div#content.sub section.sub-content div.container div.join {
+  font-size: 0;
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join {
+    padding: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join span.pilsu {
+  color: red;
+}
+
+body div#content.sub section.sub-content div.container div.join ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 0 50px;
+  border-top: 1px solid #2E3646;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul {
+    margin: 0 0 70px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li {
+  padding: 15px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li > label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li > label {
+    display: inline-block;
+    width: 160px;
+    font-size: 17px;
+    line-height: 46px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p {
+    display: inline-block;
+    vertical-align: top;
+    width: 380px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p input[type="text"],
+body div#content.sub section.sub-content div.container div.join ul li p input[type="password"],
+body div#content.sub section.sub-content div.container div.join ul li p input[type="date"],
+body div#content.sub section.sub-content div.container div.join ul li p select {
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+  width: 100%;
+  height: 44px;
+  border: 1px solid #AAAAAA;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="text"],
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="password"],
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="date"],
+  body div#content.sub section.sub-content div.container div.join ul li p select {
+    font-size: 17px;
+    height: 46px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p input[type="text"]#address01,
+body div#content.sub section.sub-content div.container div.join ul li p input[type="password"]#address01,
+body div#content.sub section.sub-content div.container div.join ul li p input[type="date"]#address01,
+body div#content.sub section.sub-content div.container div.join ul li p select#address01 {
+  margin: 10px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="text"]#address01,
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="password"]#address01,
+  body div#content.sub section.sub-content div.container div.join ul li p input[type="date"]#address01,
+  body div#content.sub section.sub-content div.container div.join ul li p select#address01 {
+    margin: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p input[type="text"]:focus,
+body div#content.sub section.sub-content div.container div.join ul li p input[type="password"]:focus,
+body div#content.sub section.sub-content div.container div.join ul li p input[type="date"]:focus,
+body div#content.sub section.sub-content div.container div.join ul li p select:focus {
+  border-color: #7A94D3;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.small {
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.small {
+    width: 200px;
+    margin: 0 10px 0 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.small2 {
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.small2 {
+    width: 380px;
+    margin: 0 10px 0 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub {
+  text-align: right;
+  padding: 18px 0 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.sub {
+    padding: 10px 0 0 50px;
+    text-align: left;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub strong {
+  font-size: 15px;
+  color: #222;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.sub strong {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub input {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub label {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #555;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.sub label {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.sub input:checked + label::before {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg  transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree {
+  position: relative;
+  text-align: center;
+  padding: 18px 0 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.agree {
+    width: 100%;
+    padding: 25px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree strong {
+  font-size: 15px;
+  color: #222;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree input {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree label {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #555;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.agree label {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree input:checked + label::before {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg  transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.agree a {
+  font-size: 15px;
+  display: block;
+  text-decoration: underline;
+  color: #5175CC;
+  margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.agree a {
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.wBtn {
+    width: 480px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.wBtn input[type=text] {
+  vertical-align: top;
+  width: calc(100% - 102px);
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.wBtn button {
+  vertical-align: top;
+  width: 92px;
+  margin-left: 10px;
+  height: 44px;
+  border-radius: 4px;
+  background: #555;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.wBtn.left button {
+  margin: 0 10px 0 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.zip {
+    width: 800px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.zip input[type=text] {
+  vertical-align: top;
+  width: 120px;
+  background: #EFF0F3;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.zip input[type=text] {
+    width: 150px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.zip button {
+  vertical-align: top;
+  width: 92px;
+  margin-right: 10px;
+  height: 44px;
+  border-radius: 4px;
+  background: #555;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.checkbox {
+    width: calc(100% - 160px);
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.checkbox input {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.checkbox label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 15px;
+  margin: 0 0 10px;
+  border: 1px solid #999;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.checkbox label {
+    line-height: 46px;
+    padding: 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.checkbox input:checked + label {
+  background: #0a79ce;
+  border-color: transparent;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.zip + p {
+    width: 440px;
+    margin: 12px 10px 0 160px;
+  }
+  body div#content.sub section.sub-content div.container div.join ul li p.zip + p + p {
+    width: 440px;
+    margin: 12px 0 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail {
+  margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.mail {
+    width: auto;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail span {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.mail span {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 300px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail span:first-of-type {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li p.mail span:first-of-type {
+    width: 380px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail input[type=text] {
+  vertical-align: top;
+  width: calc(50% - 10px);
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail u {
+  display: inline-block;
+  line-height: 44px;
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail select {
+  width: calc(100% - 102px);
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.mail button {
+  vertical-align: top;
+  width: 92px;
+  margin-left: 10px;
+  height: 44px;
+  border-radius: 4px;
+  background: #62697B;
+  border: 1px solid #4A505B;
+  font-size: 15px;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container div.join ul li > span {
+  display: block;
+  font-size: 14px;
+  padding: 5px 0 0;
+  color: #C94745;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li > span {
+    display: inline-block;
+    padding: 5px 5px 5px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join ul li > span.full {
+    display: block;
+    padding: 5px 0 0 160px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.join ul li div.scroll {
+  height: 240px;
+  border: 1px solid #AAAAAA;
+  overflow-y: auto;
+}
+
+body div#content.sub section.sub-content div.container div.join button.bigFull {
+  display: block;
+  font-size: 20px;
+  background: #ED5351;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 50px;
+  width: calc(100% - 20px);
+  height: 64px;
+  border: 1px solid #C94745;
+  color: #fff;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.join button.bigFull {
+    font-size: 22px;
+    padding: 0 10px;
+    width: 330px;
+    height: 70px;
+  }
 }
 
 body footer#footer {
