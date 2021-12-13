@@ -3693,6 +3693,81 @@ body {
   }
 
 
+          
+  div.sub-location {
+    padding:0 15px 30px;
+
+    @media (min-width: $screen-size-pc) {
+      padding:0 0 40px;
+    }
+      div.maps {
+        height:300px;
+        background:#eee;
+        margin:0 -10px;
+
+        @media (min-width: $screen-size-pc) {
+          margin:0;
+          height:500px;
+        }
+      }
+
+      &>ul {
+        list-style:none;
+        margin:0;
+        padding:20px 0 40px;
+        font-size:16px;
+
+        @media (min-width: $screen-size-pc) {
+          font-size:22px;
+          padding:30px 0 60px;
+        }
+
+        li {
+          position:relative;
+          padding:0 0 10px 100px;
+          word-break:keep-all;
+
+          @media (min-width: $screen-size-pc) {
+            padding:0 0 30px 140px;
+          }
+
+          strong {
+            position:absolute;
+            left:0;
+            top:0;
+            width:90px;
+            background:#0a79ce;
+            color:#fff;
+            padding:0 10px 0 36px;
+            line-height:28px;
+            font-size:12px;
+            border-radius:10px;
+
+            @media (min-width: $screen-size-pc) {
+              top:-4px;
+              width:120px;
+              line-height:44px;
+              font-size:20px;
+              padding:0 10px 0 46px;
+            }
+
+            i {
+              position:absolute;
+              left:10px;
+              top:50%;
+              transform:translateY(-50%);
+              font-size:20px;
+
+              @media (min-width: $screen-size-pc) {
+                font-size:32px;
+              }
+            }
+          }
+        }
+      }
+
+
+  }
 
 
         }
