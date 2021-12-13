@@ -3931,6 +3931,73 @@ body div#content.sub section.sub-content div.container ul.boardList li.reply div
   margin: 0;
 }
 
+body div#content.sub section.sub-content div.container ul.galleryList {
+  list-style: none;
+  margin: 0 15px 20px;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.galleryList {
+    margin: 0 0 30px;
+    font-size: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.galleryList li {
+    display: inline-block;
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  body div#content.sub section.sub-content div.container ul.galleryList li:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li a {
+  display: block;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li a p.image {
+  margin: 0 0 20px;
+  padding: 60% 0 0;
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li a p.image img {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li a h5 {
+  margin: 0 0 10px;
+  padding: 0 20px;
+  font-size: 16px;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.galleryList li a h5 {
+    font-size: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.galleryList li a p.date {
+  font-size: 14px;
+  margin: 0 0 20px;
+  color: #555;
+}
+
 body div#content.sub section.sub-content div.container div.boardView {
   padding: 0 15px 40px;
 }

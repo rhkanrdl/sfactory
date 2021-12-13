@@ -148,6 +148,10 @@ function coverimage() {
     $(".sub-content .sub-agency-detail p.image").each(function(){
         $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
     });
+
+    $(".sub-content ul.galleryList p.image").each(function(){
+        $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
+    });
 }
 
 /* ----- main tab ----- */ 
