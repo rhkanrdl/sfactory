@@ -6036,25 +6036,25 @@ body div#content.sub section.sub-content div.container div.join button.bigFull {
   }
 }
 
-body div#content.sub section.sub-content div.container div.sub-intro {
+body div#content.sub section.sub-content div.container div.sub-greeting {
   padding: 0 15px 30px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.sub-intro {
+  body div#content.sub section.sub-content div.container div.sub-greeting {
     position: relative;
     padding: 0 0 40px 520px;
   }
 }
 
-body div#content.sub section.sub-content div.container div.sub-intro div.img {
+body div#content.sub section.sub-content div.container div.sub-greeting div.img {
   height: 240px;
   background: url(../images/img-intro.jpg) no-repeat center/cover;
   margin: 0;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.sub-intro div.img {
+  body div#content.sub section.sub-content div.container div.sub-greeting div.img {
     position: absolute;
     left: 0;
     top: 0;
@@ -6063,7 +6063,7 @@ body div#content.sub section.sub-content div.container div.sub-intro div.img {
   }
 }
 
-body div#content.sub section.sub-content div.container div.sub-intro strong {
+body div#content.sub section.sub-content div.container div.sub-greeting strong {
   display: block;
   font-size: 26px;
   word-break: keep-all;
@@ -6072,18 +6072,18 @@ body div#content.sub section.sub-content div.container div.sub-intro strong {
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.sub-intro strong {
+  body div#content.sub section.sub-content div.container div.sub-greeting strong {
     font-size: 34px;
   }
 }
 
-body div#content.sub section.sub-content div.container div.sub-intro p {
+body div#content.sub section.sub-content div.container div.sub-greeting p {
   word-break: keep-all;
   margin: 0 0 20px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.sub-intro p {
+  body div#content.sub section.sub-content div.container div.sub-greeting p {
     font-size: 16px;
   }
 }
