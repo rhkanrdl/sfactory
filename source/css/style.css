@@ -4376,6 +4376,255 @@ body div#content.sub section.sub-content div.container ul.boardList2 li.notice {
   }
 }
 
+body div#content.sub section.sub-content div.container ul.boardList3 {
+  list-style: none;
+  margin: 0 15px 20px;
+  padding: 0;
+  border-top: 2px solid #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 {
+    margin: 0 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li {
+  border-bottom: 1px solid #CCCCCC;
+  position: relative;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box {
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box {
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div {
+  margin: 0;
+  position: relative;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company {
+  display: block;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company {
+    display: block;
+    position: relative;
+    padding: 0 0 10px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company strong {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company span {
+    font-size: 26px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong {
+  display: inline-block;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong::after {
+  content: " : ";
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong {
+  display: inline-block;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong::after {
+  content: " : ";
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong {
+  display: inline-block;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong::after {
+  content: " : ";
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong {
+  display: inline-block;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong::after {
+  content: " : ";
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file {
+  display: block;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a {
+  display: block;
+  background: #efefef;
+  border: 1px solid #ccc;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  width: 140px;
+  bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a {
+    right: 160px;
+    bottom: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a strong {
+  font-weight: inherit;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.show {
+  display: block;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.show a {
+  display: block;
+  background: #0a79ce;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  width: 140px;
+  bottom: 0px;
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.show a {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.show a strong {
+  font-weight: inherit;
+}
+
 body div#content.sub section.sub-content div.container ul.galleryList {
   list-style: none;
   margin: 0 15px 20px;

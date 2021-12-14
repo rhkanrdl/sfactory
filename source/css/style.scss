@@ -2361,6 +2361,251 @@ body {
                         }
                     }
 
+                    ul.boardList3 {
+                        list-style: none;
+                        margin: 0 15px 20px;
+                        padding: 0;
+                        border-top: 2px solid #ccc;
+
+                        @media (min-width: $screen-size-pc) {
+
+                            margin: 0 0 20px;
+
+                        }
+
+                        li {
+                            border-bottom: 1px solid #CCCCCC;
+                            position: relative;
+
+                            div.box {
+
+                              padding:20px;
+
+                              @media (min-width: $screen-size-pc) {
+                                padding: 22px 0;
+                                  
+                              }
+
+                                div {
+                                    margin: 0;
+                                    position: relative;
+
+                                    &.company {
+                                      display: block;
+                                      margin:0 0 10px;
+
+                                      @media (min-width: $screen-size-pc) {
+                                          display: block;
+                                          position: relative;
+                                          padding: 0 0 10px;
+                                      }
+
+                                      strong {
+                                        display:none;
+                                      }
+
+                                      span {
+                                          display: inline-block;
+                                          font-size: 20px;
+                                          font-weight: 600;
+
+                                          @media (min-width: $screen-size-pc) {
+                                            font-size:26px;
+                                          }
+                                      }
+                                  }
+
+                                    &.part {
+                                        display: block;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            display: inline-block;
+                                            vertical-align:top;
+                                            margin-right:20px;
+                                        }
+
+                                        strong {
+                                          display:inline-block;
+                                          font-size:15px;
+
+                                          @media (min-width: $screen-size-pc) {
+                                            font-size:16px;
+                                          }
+
+                                          &::after {
+                                            content:" : ";
+                                          }
+                                        }
+
+                                        span {
+                                            display: inline-block;
+                                            font-size: 15px;
+                                            font-weight: 400;
+
+                                            @media (min-width: $screen-size-pc) {}
+                                        }
+                                    }
+
+                                    &.ceo {
+                                      display: block;
+
+                                      @media (min-width: $screen-size-pc) {
+                                          display: inline-block;
+                                          vertical-align:top;
+                                          margin-right:20px;
+                                      }
+
+                                      strong {
+                                        display:inline-block;
+                                        font-size:15px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                          font-size:16px;
+                                        }
+
+                                        &::after {
+                                          content:" : ";
+                                        }
+                                      }
+
+                                      span {
+                                          display: inline-block;
+                                          font-size: 15px;
+                                          font-weight: 400;
+
+                                          @media (min-width: $screen-size-pc) {}
+                                      }
+                                    }
+
+                                    &.name {
+                                      display: block;
+
+                                      @media (min-width: $screen-size-pc) {
+                                          display: inline-block;
+                                          vertical-align:top;
+                                          margin-right:20px;
+                                      }
+
+                                      strong {
+                                        display:inline-block;
+                                        font-size:15px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                          font-size:16px;
+                                        }
+
+                                        &::after {
+                                          content:" : ";
+                                        }
+                                      }
+
+                                      span {
+                                          display: inline-block;
+                                          font-size: 15px;
+                                          font-weight: 400;
+
+                                          @media (min-width: $screen-size-pc) {}
+                                      }
+                                    }
+
+                                    &.date {
+                                      display: block;
+
+                                      @media (min-width: $screen-size-pc) {
+                                          display: inline-block;
+                                          vertical-align:top;
+                                          margin-right:20px;
+                                      }
+
+                                      strong {
+                                        display:inline-block;
+                                        font-size:15px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                          font-size:16px;
+                                        }
+
+                                        &::after {
+                                          content:" : ";
+                                        }
+                                      }
+
+                                      span {
+                                          display: inline-block;
+                                          font-size: 15px;
+                                          font-weight: 400;
+
+                                          @media (min-width: $screen-size-pc) {}
+                                      }
+                                    }
+
+                                    
+
+                                    &.file {
+                                      display: block;
+
+                                      @media (min-width: $screen-size-pc) {
+                                      }
+
+                                      a {
+                                        display:block;
+                                        background:#efefef;
+                                        border:1px solid #ccc;
+                                        line-height:40px;
+                                        text-align:center;
+                                        position:absolute;
+                                        right:0;
+                                        width: 140px;
+                                        bottom:50px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                          right: 160px;
+                                          bottom:0;
+                                        }
+                                        
+                                        strong {
+                                          font-weight:inherit;
+                                        }
+
+                                      }
+                                  }
+
+                                  &.show {
+                                    display: block;
+
+                                    @media (min-width: $screen-size-pc) {
+                                    }
+
+                                    a {
+                                      display:block;
+                                      background:#0a79ce;
+                                      border:1px solid rgba(0,0,0,.6);
+                                      line-height:40px;
+                                      text-align:center;
+                                      position:absolute;
+                                      right:0;
+                                      width: 140px;
+                                      bottom:0px;
+                                      color:#fff;
+
+                                      @media (min-width: $screen-size-pc) {
+                                        right: 0;
+                                        bottom:0;
+                                      }
+                                      
+                                      strong {
+                                        font-weight:inherit;
+                                      }
+
+                                    }
+                                }
+
+                                }
+
+                            }
+                        }
+                    }
+
                     ul.galleryList {
                         list-style: none;
                         margin: 0 15px 20px;
