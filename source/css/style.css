@@ -3974,7 +3974,7 @@ body div#content.sub section.sub-content div.container ul.galleryList li {
 
 body div#content.sub section.sub-content div.container ul.galleryList li a {
   display: block;
-  border: 1px solid #ccc;
+  border-bottom: 2px solid #eee;
   text-align: center;
 }
 
@@ -6033,6 +6033,58 @@ body div#content.sub section.sub-content div.container div.join button.bigFull {
     padding: 0 10px;
     width: 330px;
     height: 70px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro {
+  padding: 0 15px 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro {
+    position: relative;
+    padding: 0 0 40px 520px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro div.img {
+  height: 240px;
+  background: url(../images/img-intro.jpg) no-repeat center/cover;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro div.img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 460px;
+    height: 700px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro strong {
+  display: block;
+  font-size: 26px;
+  word-break: keep-all;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro strong {
+    font-size: 34px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro p {
+  word-break: keep-all;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro p {
+    font-size: 16px;
   }
 }
 

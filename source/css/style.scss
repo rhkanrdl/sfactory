@@ -1998,7 +1998,8 @@ body {
   
           a {
             display:block;
-            border:1px solid #ccc;
+            // border:1px solid #ccc;
+            border-bottom:2px solid #eee;
             text-align:center;
 
             p.image {
@@ -4001,6 +4002,53 @@ body {
   }
 
 
+  div.sub-intro {
+    padding:0 15px 30px;
+
+    @media (min-width: $screen-size-pc) {
+      position:relative;
+      padding:0 0 40px 520px;
+    }
+      div.img {
+        height:240px;
+        background:url(../images/img-intro.jpg) no-repeat center / cover;
+        margin:0;
+
+        @media (min-width: $screen-size-pc) {
+          position:absolute;
+          left:0;
+          top:0;
+          width:460px;
+          height:700px;
+
+        }
+      }
+
+      strong {
+        display:block;
+        font-size:26px;
+        word-break:keep-all;
+        font-weight:600;
+        margin:20px 0;
+
+        @media (min-width: $screen-size-pc) {
+          font-size:34px;
+
+        }
+      }
+
+      p {
+        word-break:keep-all;
+        margin:0 0 20px;
+
+        @media (min-width: $screen-size-pc) {
+          font-size:16px;
+
+        }
+      }
+
+
+  }
           
   div.sub-location {
     padding:0 15px 30px;
