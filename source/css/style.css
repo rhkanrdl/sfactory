@@ -3674,14 +3674,17 @@ body div#content.sub section.sub-content div.container {
 }
 
 body div#content.sub section.sub-content div.container h4.stitle {
-  font-size: 18px;
+  position: relative;
+  font-size: 20px;
   margin: 0 0 10px;
+  padding: 0 0 30px;
 }
 
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container h4.stitle {
-    font-size: 22px;
+    font-size: 26px;
     margin: 0 0 20px;
+    padding: 0 0 40px;
   }
 }
 
@@ -3689,6 +3692,23 @@ body div#content.sub section.sub-content div.container h4.stitle small {
   font-size: inherit;
   font-weight: 400;
   color: crimson;
+}
+
+body div#content.sub section.sub-content div.container h4.stitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 50px;
+  height: 3px;
+  background: #0a79ce;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h4.stitle::before {
+    bottom: 20px;
+  }
 }
 
 body div#content.sub section.sub-content div.container h4.btitle {
@@ -6049,7 +6069,7 @@ body div#content.sub section.sub-content div.container div.sub-greeting {
 
 body div#content.sub section.sub-content div.container div.sub-greeting div.img {
   height: 240px;
-  background: url(../images/img-intro.jpg) no-repeat center/cover;
+  background: url(../images/img-greeting.jpg) no-repeat center/cover;
   margin: 0;
 }
 
