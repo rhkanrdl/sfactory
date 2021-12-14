@@ -4129,6 +4129,77 @@ body {
 
                     }
 
+                    div.member-join {
+
+                        text-align: center;
+                        padding: 0 15px;
+
+                        @media (min-width: $screen-size-pc) {
+                            padding: 0;
+                        }
+
+                        h4 {
+                            font-size: 22px;
+                            margin: 40px 0 20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                font-size: 26px;
+                                margin: 60px 0 30px;
+                            }
+                        }
+
+                        p.text {
+                            margin: 0 0 40px;
+
+                            @media (min-width: $screen-size-pc) {
+                                margin: 0 0 50px;
+                                font-size: 16px;
+                            }
+
+                            i {
+                                font-size: 64px;
+                                display: block;
+                                margin: 0 0 20px;
+                                color: #ccc;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size: 88px;
+                                }
+                            }
+
+                            span {
+                                display: block;
+                                word-break: keep-all;
+
+                            }
+                        }
+
+                        a {
+                            display:inline-block;
+                            line-height:46px;
+                            padding:0 30px;
+                            font-size:18px;
+                            color:#fff;
+                            margin:0 5px;
+
+                            @media (min-width: $screen-size-pc) {
+                                font-size: 24px;
+                                line-height:55px;
+                                padding:0 50px
+                            }
+                            
+                            &:first-of-type {
+                                background:#0a79ce;
+                            }
+                            
+                            &:last-of-type {
+                                background:#50A639;
+                            }
+
+                        }
+
+                    }
+
                     div.join {
 
                         font-size: 0;
@@ -4683,6 +4754,86 @@ body {
                               left:0;
                             }
                           }
+                        }
+                    }
+
+                    div.sub-organization {
+                        padding: 0 15px;
+
+                        @media (min-width: $screen-size-pc) {
+                            padding: 0;
+                        }
+
+                        img {
+                            max-width: 100%;
+                            margin-bottom: 30px;
+
+                            @media (min-width: $screen-size-pc) {
+                                margin-bottom: 40px;
+                            }
+                        }
+
+                        ul {
+
+                            list-style:none;
+                            margin:0 0 30px;
+                            padding:0;
+                            font-size:0;
+
+                            li {
+                                position:relative;
+                                border:1px solid #ccc;
+                                padding:20px 20px 10px;
+                                margin-bottom:20px;
+                                @include drop-shadow($x: 0, $y: 6px, $blur: 15px, $spread: 0, $alpha: 0.25);
+
+                                @media (min-width: $screen-size-pc) {
+                                    display:inline-block;
+                                    padding:30px 30px 20px;
+                                    width:calc(50% - 10px);
+
+                                    &:nth-child(odd) {
+                                        margin-right:20px;
+                                    }
+                                }
+
+                                h5 {
+                                    margin:0 0 20px;
+                                    font-size:18px;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        font-size:24px;
+                                    }
+
+                                    small {
+                                        font-size:16px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            font-size:20px;
+                                        }
+                                    }
+                                }
+
+                                p {
+                                    margin:0 0 10px;
+                                    font-size:14px;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        font-size:16px;
+                                    }
+
+                                    &.text {
+                                        font-weight:500;
+                                    }
+
+                                    &.tel,
+                                    &.mail {
+                                        color:#0a79ce;
+                                        display:inline-block;
+                                        margin-right:20px;
+                                    }
+                                }
+                            }
                         }
                     }
 
