@@ -2069,14 +2069,14 @@ html {
   height: -webkit-fill-available;
 }
 
-html,
-body {
+body,
+html {
   font-family: "Noto Sans KR", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
 @media (max-width: 1199px) {
-  html.lock,
-  body.lock {
+  body.lock,
+  html.lock {
     height: 100vh;
     overflow: hidden;
   }
@@ -2477,7 +2477,7 @@ body header .container button.main-menu i {
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
   }
-  body nav#main-menu div.menus > ul > li ul li a:hover, body nav#main-menu div.menus > ul > li ul li a.active {
+  body nav#main-menu div.menus > ul > li ul li a.active, body nav#main-menu div.menus > ul > li ul li a:hover {
     color: #0066cc;
     text-decoration: underline;
   }
@@ -2641,7 +2641,7 @@ body div#content.main section.main-issue {
   position: relative;
   margin-top: 60px;
   height: 440px;
-  background: url(../images/main01.png) no-repeat center/cover;
+  background: url("../images/main01.png") no-repeat center/cover;
   font-family: "SEBANG_Gothic", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 
@@ -2841,7 +2841,7 @@ body div#content.main section.main-links div.container div.right a {
 }
 
 body div#content.main section.main-links div.container div.right a.banner01 {
-  background: url(../images/icon-main01.svg) no-repeat center top 30px/70px auto;
+  background: url("../images/icon-main01.svg") no-repeat center top 30px/70px auto;
 }
 
 @media (min-width: 1200px) {
@@ -2851,7 +2851,7 @@ body div#content.main section.main-links div.container div.right a.banner01 {
 }
 
 body div#content.main section.main-links div.container div.right a.banner02 {
-  background: url(../images/icon-main02.svg) no-repeat center top 30px/70px auto;
+  background: url("../images/icon-main02.svg") no-repeat center top 30px/70px auto;
 }
 
 @media (min-width: 1200px) {
@@ -2861,7 +2861,7 @@ body div#content.main section.main-links div.container div.right a.banner02 {
 }
 
 body div#content.main section.main-links div.container div.right a.banner03 {
-  background: url(../images/icon-main03.svg) no-repeat center top 30px/70px auto;
+  background: url("../images/icon-main03.svg") no-repeat center top 30px/70px auto;
 }
 
 @media (min-width: 1200px) {
@@ -3065,7 +3065,7 @@ body div#content.main section.main-news div.container div.popupzone div.slider u
 
 @media (min-width: 1200px) {
   body div#content.main section.main-info {
-    background: url(../images/main-bg.png) no-repeat center top -100px;
+    background: url("../images/main-bg.png") no-repeat center top -100px;
   }
 }
 
@@ -3138,7 +3138,7 @@ body div#content.main section.main-info div.container p.step01::after {
   display: block;
   width: 100%;
   padding-top: 50%;
-  background: url(../images/main-car.png) no-repeat center/100% auto;
+  background: url("../images/main-car.png") no-repeat center/100% auto;
 }
 
 @media (min-width: 1200px) {
@@ -3198,15 +3198,15 @@ body div#content.main section.main-info div.container p.square span u {
 }
 
 body div#content.main section.main-info div.container p.square.step02 {
-  background: url(../images/main-img01.png) no-repeat center/cover;
+  background: url("../images/main-img01.png") no-repeat center/cover;
 }
 
 body div#content.main section.main-info div.container p.square.step03 {
-  background: url(../images/main-img02.png) no-repeat center/cover;
+  background: url("../images/main-img02.png") no-repeat center/cover;
 }
 
 body div#content.main section.main-info div.container p.square.step04 {
-  background: url(../images/main-img03.png) no-repeat center/cover;
+  background: url("../images/main-img03.png") no-repeat center/cover;
 }
 
 body div#content.main section.main-info div.container p.square:hover {
@@ -3219,7 +3219,7 @@ body div#content.main section.main-info div.container p.square:hover::before {
 }
 
 body div#content.main section.main-agency {
-  background: url(../images/main-agency.png) no-repeat center/cover;
+  background: url("../images/main-agency.png") no-repeat center/cover;
 }
 
 body div#content.main section.main-agency div.container {
@@ -3289,19 +3289,19 @@ body div#content.main section.main-agency div.container a {
 }
 
 body div#content.main section.main-agency div.container a.agency01 {
-  background: url(../images/agency01.png) no-repeat #fff center/204px auto;
+  background: url("../images/agency01.png") no-repeat #fff center/204px auto;
 }
 
 body div#content.main section.main-agency div.container a.agency02 {
-  background: url(../images/agency02.png) no-repeat #fff center/224px auto;
+  background: url("../images/agency02.png") no-repeat #fff center/224px auto;
 }
 
 body div#content.main section.main-agency div.container a.agency03 {
-  background: url(../images/agency03.png) no-repeat #fff center/152px auto;
+  background: url("../images/agency03.png") no-repeat #fff center/152px auto;
 }
 
 body div#content.main section.main-agency div.container a.agency04 {
-  background: url(../images/agency04.png) no-repeat #fff center/205px auto;
+  background: url("../images/agency04.png") no-repeat #fff center/205px auto;
 }
 
 body div#content.main section.main-factory {
@@ -3468,7 +3468,7 @@ body div#content.sub {
 
 body div#content.sub section.sub-head {
   position: relative;
-  background: url(../images/sub01.png) no-repeat center/cover;
+  background: url("../images/sub01.png") no-repeat center/cover;
 }
 
 body div#content.sub section.sub-head::before {
@@ -3675,14 +3675,14 @@ body div#content.sub section.sub-content div.container {
 
 body div#content.sub section.sub-content div.container h4.stitle {
   position: relative;
-  font-size: 20px;
+  font-size: 24px;
   margin: 0 0 10px;
   padding: 0 0 30px;
 }
 
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container h4.stitle {
-    font-size: 26px;
+    font-size: 28px;
     margin: 0 0 20px;
     padding: 0 0 40px;
   }
@@ -3720,6 +3720,38 @@ body div#content.sub section.sub-content div.container h4.btitle {
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container h4.btitle {
     margin: 40px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container h5.sstitle {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 0 0 0 30px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h5.sstitle {
+    font-size: 24px;
+  }
+}
+
+body div#content.sub section.sub-content div.container h5.sstitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: #7A94D3;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h5.sstitle::before {
+    top: 8px;
   }
 }
 
@@ -3781,7 +3813,7 @@ body div#content.sub section.sub-content div.container div.board-tools div.searc
   width: 47px;
   height: 38px;
   border: 1px solid #bebebe;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath  d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
 }
 
 body div#content.sub section.sub-content div.container ul.boardList {
@@ -4358,7 +4390,7 @@ body div#content.sub section.sub-content div.container div.boardWrite div.board-
   display: none;
 }
 
-body div#content.sub section.sub-content div.container div.boardWrite div.board-box div.line p.rows span.select-outline::before, body div#content.sub section.sub-content div.container div.boardWrite div.board-box div.line p.rows span.select-outline::after {
+body div#content.sub section.sub-content div.container div.boardWrite div.board-box div.line p.rows span.select-outline::after, body div#content.sub section.sub-content div.container div.boardWrite div.board-box div.line p.rows span.select-outline::before {
   content: "";
   position: absolute;
   top: 19px;
@@ -4539,7 +4571,7 @@ body div#content.sub section.sub-content div.container div.boardWrite ul.link li
   display: none;
 }
 
-body div#content.sub section.sub-content div.container div.boardWrite ul.link li span.select-outline::before, body div#content.sub section.sub-content div.container div.boardWrite ul.link li span.select-outline::after {
+body div#content.sub section.sub-content div.container div.boardWrite ul.link li span.select-outline::after, body div#content.sub section.sub-content div.container div.boardWrite ul.link li span.select-outline::before {
   content: "";
   position: absolute;
   top: 19px;
@@ -5050,7 +5082,7 @@ body div#content.sub section.sub-content div.container div.calendar-tools div.ca
   width: 47px;
   height: 38px;
   border: 1px solid #bebebe;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath  d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
 }
 
 body div#content.sub section.sub-content div.container ul.schedule {
@@ -5768,7 +5800,7 @@ body div#content.sub section.sub-content div.container div.join ul li p.sub labe
 }
 
 body div#content.sub section.sub-content div.container div.join ul li p.sub input:checked + label::before {
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg  transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
 }
 
 body div#content.sub section.sub-content div.container div.join ul li p.agree {
@@ -5821,7 +5853,7 @@ body div#content.sub section.sub-content div.container div.join ul li p.agree la
 }
 
 body div#content.sub section.sub-content div.container div.join ul li p.agree input:checked + label::before {
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg  transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg transform='translate(-160 -583)'%3E%3Cg transform='translate(160 583)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='10' cy='10' r='10' stroke='none'/%3E%3Ccircle cx='10' cy='10' r='9.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(163 586)' fill='%235175cc' stroke='%2333529f' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
 }
 
 body div#content.sub section.sub-content div.container div.join ul li p.agree a {
@@ -6069,7 +6101,7 @@ body div#content.sub section.sub-content div.container div.sub-greeting {
 
 body div#content.sub section.sub-content div.container div.sub-greeting div.img {
   height: 240px;
-  background: url(../images/img-greeting.jpg) no-repeat center/cover;
+  background: url("../images/img-greeting.jpg") no-repeat center/cover;
   margin: 0;
 }
 
@@ -6106,6 +6138,67 @@ body div#content.sub section.sub-content div.container div.sub-greeting p {
   body div#content.sub section.sub-content div.container div.sub-greeting p {
     font-size: 16px;
   }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro {
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro {
+    padding: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro img {
+    margin-bottom: 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro ul {
+  border: 1px solid #ccc;
+  border-left: 5px solid #7A94D3;
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 20px 20px 10px;
+  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro ul {
+    padding: 30px 30px 20px;
+    font-size: 0;
+    margin-bottom: 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro ul li {
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0 0 0 14px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro ul li {
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro ul li::before {
+  content: "·";
+  display: block;
+  position: absolute;
+  left: 0;
 }
 
 body div#content.sub section.sub-content div.container div.sub-location {
@@ -6219,7 +6312,7 @@ body footer#footer div.container h2 {
   font-size: 0;
   width: 204px;
   height: 36px;
-  background: url(../images/logo-footer.svg) no-repeat center/100% auto;
+  background: url("../images/logo-footer.svg") no-repeat center/100% auto;
   margin: 20px auto;
 }
 

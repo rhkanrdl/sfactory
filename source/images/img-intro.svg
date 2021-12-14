@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1160" height="500" viewBox="0 0 1160 500">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1160" height="465" viewBox="0 0 1160 465">
   <defs>
-    <filter id="사각형_206" x="423" y="47" width="318" height="118" filterUnits="userSpaceOnUse">
+    <filter id="사각형_206" x="423" y="35" width="318" height="100" filterUnits="userSpaceOnUse">
       <feOffset dy="2" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-color="#fff"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="사각형_206-2" x="423" y="47" width="318" height="118" filterUnits="userSpaceOnUse">
+    <filter id="사각형_206-2" x="423" y="35" width="318" height="100" filterUnits="userSpaceOnUse">
       <feOffset dy="7" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur-2"/>
       <feFlood flood-opacity="0.161" result="color"/>
@@ -15,7 +15,7 @@
       <feComposite operator="in" in="color"/>
       <feComposite operator="in" in2="SourceGraphic"/>
     </filter>
-    <filter id="사각형_207" x="32" y="210" width="507" height="74" filterUnits="userSpaceOnUse">
+    <filter id="사각형_207" x="32" y="180" width="507" height="74" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-opacity="0.161" result="color-2"/>
@@ -23,14 +23,14 @@
       <feComposite operator="in" in="color-2"/>
       <feComposite operator="in" in2="SourceGraphic"/>
     </filter>
-    <filter id="사각형_209" x="8" y="272" width="555" height="218" filterUnits="userSpaceOnUse">
+    <filter id="사각형_209" x="8" y="242" width="555" height="218" filterUnits="userSpaceOnUse">
       <feOffset dy="5" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="8" result="blur-4"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-4"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="사각형_208" x="625" y="210" width="507" height="74" filterUnits="userSpaceOnUse">
+    <filter id="사각형_208" x="625" y="180" width="507" height="74" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-5"/>
       <feFlood flood-opacity="0.161" result="color-3"/>
@@ -38,28 +38,28 @@
       <feComposite operator="in" in="color-3"/>
       <feComposite operator="in" in2="SourceGraphic"/>
     </filter>
-    <filter id="사각형_210" x="601" y="272" width="555" height="218" filterUnits="userSpaceOnUse">
+    <filter id="사각형_210" x="601" y="242" width="555" height="218" filterUnits="userSpaceOnUse">
       <feOffset dy="5" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="8" result="blur-6"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-6"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="센터장" x="526" y="78" width="112" height="58" filterUnits="userSpaceOnUse">
+    <filter id="센터장" x="526" y="59" width="112" height="58" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-7"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-7"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="스마트공장_보급확산" x="167" y="228" width="238" height="49" filterUnits="userSpaceOnUse">
+    <filter id="스마트공장_보급확산" x="176" y="200" width="220" height="46" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-8"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-8"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="공급기술_고도화" x="784" y="228" width="190" height="49" filterUnits="userSpaceOnUse">
+    <filter id="공급기술_고도화" x="790" y="200" width="178" height="46" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-9"/>
       <feFlood flood-opacity="0.161"/>
@@ -68,53 +68,53 @@
     </filter>
   </defs>
   <g id="그룹_477" data-name="그룹 477" transform="translate(-198 -476)">
-    <rect id="사각형_211" data-name="사각형 211" width="1160" height="500" transform="translate(198 476)" fill="#f4f4f4"/>
-    <line id="선_128" data-name="선 128" y2="35" transform="translate(484 659)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
-    <line id="선_130" data-name="선 130" y2="35" transform="translate(781 618)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
-    <line id="선_129" data-name="선 129" y2="35" transform="translate(1077 659)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
+    <rect id="사각형_211" data-name="사각형 211" width="1160" height="465" transform="translate(198 476)" fill="#f4f4f4"/>
+    <line id="선_128" data-name="선 128" y2="35" transform="translate(484 629)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
+    <line id="선_130" data-name="선 130" y2="35" transform="translate(781 588)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
+    <line id="선_129" data-name="선 129" y2="35" transform="translate(1077 629)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
     <g data-type="innerShadowGroup">
       <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_206)">
-        <rect id="사각형_206-3" data-name="사각형 206" width="300" height="100" rx="50" transform="translate(432 54)" fill="#36c"/>
+        <rect id="사각형_206-3" data-name="사각형 206" width="300" height="82" rx="41" transform="translate(432 42)" fill="#36c"/>
       </g>
       <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_206-2)">
-        <rect id="사각형_206-4" data-name="사각형 206" width="300" height="100" rx="50" transform="translate(432 54)" fill="#fff"/>
+        <rect id="사각형_206-4" data-name="사각형 206" width="300" height="82" rx="41" transform="translate(432 42)" fill="#fff"/>
       </g>
     </g>
     <g data-type="innerShadowGroup">
-      <rect id="사각형_207-2" data-name="사각형 207" width="507" height="74" rx="14" transform="translate(230 686)" fill="#424a64"/>
+      <rect id="사각형_207-2" data-name="사각형 207" width="507" height="74" rx="14" transform="translate(230 656)" fill="#424a64"/>
       <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_207)">
-        <rect id="사각형_207-3" data-name="사각형 207" width="507" height="74" rx="14" transform="translate(32 210)" fill="#fff"/>
+        <rect id="사각형_207-3" data-name="사각형 207" width="507" height="74" rx="14" transform="translate(32 180)" fill="#fff"/>
       </g>
     </g>
     <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_209)">
-      <rect id="사각형_209-2" data-name="사각형 209" width="507" height="170" rx="14" transform="translate(32 291)" fill="#fff"/>
+      <rect id="사각형_209-2" data-name="사각형 209" width="507" height="170" rx="14" transform="translate(32 261)" fill="#fff"/>
     </g>
     <g data-type="innerShadowGroup">
-      <rect id="사각형_208-2" data-name="사각형 208" width="507" height="74" rx="14" transform="translate(823 686)" fill="#424a64"/>
+      <rect id="사각형_208-2" data-name="사각형 208" width="507" height="74" rx="14" transform="translate(823 656)" fill="#424a64"/>
       <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_208)">
-        <rect id="사각형_208-3" data-name="사각형 208" width="507" height="74" rx="14" transform="translate(625 210)" fill="#fff"/>
+        <rect id="사각형_208-3" data-name="사각형 208" width="507" height="74" rx="14" transform="translate(625 180)" fill="#fff"/>
       </g>
     </g>
     <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#사각형_210)">
-      <rect id="사각형_210-2" data-name="사각형 210" width="507" height="170" rx="14" transform="translate(625 291)" fill="#fff"/>
+      <rect id="사각형_210-2" data-name="사각형 210" width="507" height="170" rx="14" transform="translate(625 261)" fill="#fff"/>
     </g>
     <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#센터장)">
-      <text id="센터장-2" data-name="센터장" transform="translate(582 113)" fill="#fff" font-size="34" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-46.206" y="0">센터장</tspan></text>
+      <text id="센터장-2" data-name="센터장" transform="translate(582 94)" fill="#fff" font-size="34" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-46.206" y="0">센터장</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#스마트공장_보급확산)">
-      <text id="스마트공장_보급확산-2" data-name="스마트공장 보급확산" transform="translate(286 256)" fill="#fff" font-size="26" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-109.382" y="0">스마트공장 보급확산</tspan></text>
+      <text id="스마트공장_보급확산-2" data-name="스마트공장 보급확산" transform="translate(286 226)" fill="#fff" font-size="24" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-100.968" y="0">스마트공장 보급확산</tspan></text>
     </g>
     <text id="신규_구축_및_고도화_지원_역량강화_컨설팅_지원_사업홍보_및_네트워킹_기관_내_TF_운영" data-name="신규 구축 및 고도화 지원
 역량강화 컨설팅 지원
 사업홍보 및 네트워킹
-기관 내 TF 운영" transform="translate(484 807)" fill="#555" font-size="19" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-95.95" y="0">신규 구축 및 고도화 지원</tspan><tspan x="-82.403" y="32">역량강화 컨설팅 지원</tspan><tspan x="-82.403" y="64">사업홍보 및 네트워킹</tspan><tspan x="-61.598" y="96">기관 내 TF 운영</tspan></text>
+기관 내 TF 운영" transform="translate(484 777)" fill="#555" font-size="19" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-95.95" y="0">신규 구축 및 고도화 지원</tspan><tspan x="-82.403" y="32">역량강화 컨설팅 지원</tspan><tspan x="-82.403" y="64">사업홍보 및 네트워킹</tspan><tspan x="-61.598" y="96">기관 내 TF 운영</tspan></text>
     <text id="데이터_활용_공급기술_고도화_지원_테스트_베드_구축_및_운영_지능형_기계부품_ICT_융합_개발_지원_지역내_공급기술_고도화_지원을_위한_신규_과제_기획" data-name="데이터 활용 공급기술 고도화 지원
 테스트 베드 구축 및 운영
 지능형 기계부품 ICT 융합 개발 지원
-지역내 공급기술 고도화 지원을 위한 신규 과제 기획" transform="translate(1077 807)" fill="#555" font-size="19" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-130.378" y="0">데이터 활용 공급기술 고도화 지원</tspan><tspan x="-95.95" y="32">테스트 베드 구축 및 운영</tspan><tspan x="-137.769" y="64">지능형 기계부품 ICT 융합 개발 지원</tspan><tspan x="-198.037" y="96">지역내 공급기술 고도화 지원을 위한 신규 과제 기획</tspan></text>
+지역내 공급기술 고도화 지원을 위한 신규 과제 기획" transform="translate(1077 777)" fill="#555" font-size="19" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-130.378" y="0">데이터 활용 공급기술 고도화 지원</tspan><tspan x="-95.95" y="32">테스트 베드 구축 및 운영</tspan><tspan x="-137.769" y="64">지능형 기계부품 ICT 융합 개발 지원</tspan><tspan x="-198.037" y="96">지역내 공급기술 고도화 지원을 위한 신규 과제 기획</tspan></text>
     <g transform="matrix(1, 0, 0, 1, 198, 476)" filter="url(#공급기술_고도화)">
-      <text id="공급기술_고도화-2" data-name="공급기술 고도화" transform="translate(879 256)" fill="#fff" font-size="26" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-85.826" y="0">공급기술 고도화</tspan></text>
+      <text id="공급기술_고도화-2" data-name="공급기술 고도화" transform="translate(879 226)" fill="#fff" font-size="24" font-family="SEBANGGothic, SEBANG Gothic"><tspan x="-79.224" y="0">공급기술 고도화</tspan></text>
     </g>
-    <line id="선_127" data-name="선 127" x2="595" transform="translate(483.5 659)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
+    <line id="선_127" data-name="선 127" x2="595" transform="translate(483.5 629)" fill="none" stroke="#bbb" stroke-width="3" stroke-dasharray="5 5"/>
   </g>
 </svg>
