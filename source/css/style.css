@@ -3755,6 +3755,20 @@ body div#content.sub section.sub-content div.container h5.sstitle::before {
   }
 }
 
+body div#content.sub section.sub-content div.container div.board-banner {
+  padding: 0 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.board-banner {
+    padding: 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.board-banner img {
+  max-width: 100%;
+}
+
 body div#content.sub section.sub-content div.container div.board-tools {
   margin: 26px 15px;
   font-size: 0;
@@ -3814,6 +3828,98 @@ body div#content.sub section.sub-content div.container div.board-tools div.searc
   height: 38px;
   border: 1px solid #bebebe;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
+}
+
+body div#content.sub section.sub-content div.container fieldset.check {
+  position: relative;
+  margin: 20px 15px 30px;
+  padding: 40px 20px 20px;
+  -webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container fieldset.check {
+    padding: 20px 20px 10px 180px;
+    margin: 20px 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container fieldset.check legend {
+  display: block;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: -20px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #111C2A;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container fieldset.check legend {
+    left: -1px;
+    top: -1px;
+    right: auto;
+    bottom: -1px;
+    width: 150px;
+    padding: 50px 20px;
+    word-break: keep-all;
+    line-height: 1.6;
+    font-size: 16px;
+    vertical-align: center;
+  }
+}
+
+body div#content.sub section.sub-content div.container fieldset.check p.checkbox {
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container fieldset.check p.checkbox input {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container fieldset.check p.checkbox label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0;
+  width: calc((100% - 20px) / 3);
+  text-align: center;
+  margin: 0 0 10px;
+  border: 1px solid #999;
+  margin-right: 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container fieldset.check p.checkbox label {
+    width: auto;
+    padding: 0 15px;
+    line-height: 46px;
+    padding: 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container fieldset.check p.checkbox label:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container fieldset.check p.checkbox label:nth-of-type(3n) {
+    margin-right: 10px;
+  }
+}
+
+body div#content.sub section.sub-content div.container fieldset.check p.checkbox input:checked + label {
+  background: #0a79ce;
+  border-color: transparent;
+  color: #fff;
 }
 
 body div#content.sub section.sub-content div.container ul.boardList {
@@ -3993,6 +4099,281 @@ body div#content.sub section.sub-content div.container ul.boardList li.reply div
 body div#content.sub section.sub-content div.container ul.boardList li.reply div.box div.text h5 {
   font-weight: 500;
   margin: 0;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 {
+  list-style: none;
+  margin: 0 15px 20px;
+  padding: 0;
+  border-top: 2px solid #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 {
+    margin: 0 0 20px;
+  }
+  body div#content.sub section.sub-content div.container ul.boardList2::before {
+    content: "";
+    display: block;
+    height: 44px;
+    background: #efefef;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li {
+  border-bottom: 1px solid #CCCCCC;
+  position: relative;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div {
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.num {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.num {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.num span {
+  display: block;
+  font-size: 16px;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text {
+  text-align: left;
+  display: inline-block;
+  width: calc(100vw - 160px);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text {
+    width: calc(100% - 530px);
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text h5 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  padding: 22px 0 52px;
+  color: #222;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text h5 {
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.company {
+  display: block;
+  position: absolute;
+  left: 84px;
+  bottom: 22px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.company {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 110px;
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.company span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.name {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.name {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 110px;
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.name span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.date {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 110px;
+  padding: 22px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.date {
+    position: relative;
+    vertical-align: top;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.date span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 110px;
+    padding: 22px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #ccc;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step.step01 span {
+  background: #C94745;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step.step02 span {
+  background: #0a79ce;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div strong {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li:first-child div.box div strong {
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -44px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: 400;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li.reply {
+  position: relative;
+  padding: 0 0 0 50px;
+  background: #eee;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li.reply {
+    padding: 0 0 0 120px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li.reply::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 26px;
+  width: 12px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.7' height='13.514' viewBox='0 0 13.7 13.514'%3E%3Cg transform='translate(-15.217 -561.951)'%3E%3Cg transform='translate(16.067 562.801)'%3E%3Cpath d='M6.419,13.347l3.254-3.254L6.386,6.805' transform='translate(2.327 -1.885)' fill='none' stroke='%237691d2' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.7'/%3E%3Cpath d='M.85.85V8.977H11.944' transform='translate(-0.85 -0.85)' fill='none' stroke='%237691d2' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.7'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li.reply::before {
+    width: 14px;
+    height: 14px;
+    left: 90px;
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li.reply div.box div.text {
+  width: calc(100vw - 210px);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li.reply div.box div.text {
+    width: calc(100% - 354px);
+  }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li.reply div.box div.text h5 {
+  font-weight: 500;
+  margin: 0;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li.notice {
+  background: #f8f8f8;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.boardList2 li.notice div.box div.num span {
+    display: block;
+    background: #555;
+    color: #fff;
+    margin: 0 10px;
+    line-height: 32px;
+    border-radius: 4px;
+  }
 }
 
 body div#content.sub section.sub-content div.container ul.galleryList {
