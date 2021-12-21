@@ -7064,7 +7064,7 @@ body div#content.sub section.sub-content div.container div.sub-factory {
 }
 
 body div#content.sub section.sub-content div.container div.sub-factory p.text {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   word-break: keep-all;
   font-size: 14px;
 }
@@ -7072,13 +7072,13 @@ body div#content.sub section.sub-content div.container div.sub-factory p.text {
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.sub-factory p.text {
     font-size: 16px;
-    margin: 0 0 30px;
+    margin: 0 0 40px;
   }
 }
 
 body div#content.sub section.sub-content div.container div.sub-factory ul.text {
   border: 1px solid #ccc;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   padding: 20px 20px 10px;
   list-style: none;
   background: #f4f4f4;
@@ -7086,7 +7086,7 @@ body div#content.sub section.sub-content div.container div.sub-factory ul.text {
 
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.sub-factory ul.text {
-    margin: 0 0 30px;
+    margin: 0 0 40px;
   }
 }
 
@@ -7109,18 +7109,140 @@ body div#content.sub section.sub-content div.container div.sub-factory ul.text l
   left: 0;
 }
 
+body div#content.sub section.sub-content div.container div.sub-factory dl.text dt {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 5px;
+  color: #0a79ce;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory dl.text dt {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory dl.text dd {
+  margin: 0;
+  padding: 0 0 20px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory dl.text dd {
+    padding: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory dl.text dd span {
+  display: block;
+  margin-top: 5px;
+  color: #0a79ce;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory dl.text dd strong {
+  display: block;
+  background: #efefef;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory dl.text dd strong {
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+
 body div#content.sub section.sub-content div.container div.sub-factory p.img {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.sub-factory p.img {
-    margin: 0 0 30px;
+    margin: 0 0 40px;
   }
 }
 
 body div#content.sub section.sub-content div.container div.sub-factory p.img img {
   max-width: 100%;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline {
+  overflow-x: auto;
+  width: 100%;
+  margin: 0 0 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory div.table-outline {
+    margin: 0 0 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table {
+  width: 1160px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table thead tr th {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  background: #555;
+  color: #fff;
+  font-size: 16px;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table tbody tr th {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table tbody tr td {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table.left th,
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table.left td {
+  text-align: left;
+  padding: 10px;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table.left th {
+  font-size: 14px;
+  font-weight: 400;
+  background: #efefef;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.table-outline table.left th strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory div.outlink {
+  padding: 20px;
+  word-break: keep-all;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory div.outlink {
+    font-size: 16px;
+  }
+  body div#content.sub section.sub-content div.container div.sub-factory div.outlink a {
+    color: #0a79ce;
+    text-decoration: underline;
+  }
 }
 
 body div#content.sub section.sub-content div.container div.greeting-banner {
