@@ -4025,6 +4025,18 @@ body div#content.sub section.sub-content div.container ul.boardList li div.box d
   white-space: nowrap;
 }
 
+body div#content.sub section.sub-content div.container ul.boardList li div.box div.text h5 span {
+  display: inline-block;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList li div.box div.text h5 span.lock {
+  background: #ED5351;
+  color: #fff;
+  margin-right: 10px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
 body div#content.sub section.sub-content div.container ul.boardList li div.box div.name {
   display: none;
 }
@@ -4208,6 +4220,18 @@ body div#content.sub section.sub-content div.container ul.boardList2 li div.box 
   body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text h5 {
     padding: 22px 0;
   }
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text h5 span {
+  display: inline-block;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.text h5 span.lock {
+  background: #ED5351;
+  color: #fff;
+  margin-right: 10px;
+  padding: 0 10px;
+  border-radius: 4px;
 }
 
 body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.company {
@@ -4858,11 +4882,162 @@ body div#content.sub section.sub-content div.container div.boardView div.board-t
   color: #222;
 }
 
-body div#content.sub section.sub-content div.container div.boardView div.btns {
-  text-align: center;
+body div#content.sub section.sub-content div.container div.boardView div.reply-input {
+  background: #FAFAFA;
+  margin: 40px 0 20px;
+  padding: 20px;
 }
 
-body div#content.sub section.sub-content div.container div.boardView div.btns button {
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-input {
+    margin: 50px 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-input h5 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-input h5 {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-input div.outline {
+  position: relative;
+  border: 1px solid #CCCCCC;
+  background: #fff;
+  padding: 0 0 60px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-input div.outline {
+    padding: 0 180px 0 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-input div.outline textarea {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  height: 90px;
+  outline: none;
+  resize: none;
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-input div.outline button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 130px;
+  height: 42px;
+  border: 1px solid #0a79ce;
+  background: #fff;
+  color: #0a79ce;
+  font-size: 15px;
+  font-weight: 500px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-input div.outline button {
+    font-size: 18px;
+    width: 140px;
+    height: 50px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view {
+  position: relative;
+  border-bottom: 1px solid #DFDFDF;
+  margin: 0;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-view {
+    padding: 34px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view h5 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #555;
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-view h5 {
+    font-size: 18px;
+    margin: 0 0 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view h5 span {
+  display: inline-block;
+  color: #fff;
+  background: #0a79ce;
+  line-height: 28px;
+  padding: 0 15px;
+  margin-right: 8px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-view h5 span {
+    line-height: 34px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view > span {
+  font-size: 16px;
+  font-weight: 500;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-view > span {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view div.tools {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.boardView div.reply-view div.tools {
+    right: 20px;
+    top: 34px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view div.tools button {
+  font-size: 15px;
+  color: #555;
+  border: none;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 1;
+  background: transparent;
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.reply-view div.tools button:first-of-type {
+  border-right: 1px solid #999;
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.btn-set {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body div#content.sub section.sub-content div.container div.boardView div.btn-set button {
   font-size: 19px;
   font-weight: 500;
   width: 152px;
@@ -4873,7 +5048,7 @@ body div#content.sub section.sub-content div.container div.boardView div.btns bu
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.boardView div.btns button {
+  body div#content.sub section.sub-content div.container div.boardView div.btn-set button {
     font-size: 20px;
     width: 160px;
     height: 60px;

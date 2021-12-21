@@ -1966,6 +1966,18 @@ body {
                                             @media (min-width: $screen-size-pc) {
                                                 }
 
+                                                span {
+                                                    display:inline-block;
+    
+                                                    &.lock {
+                                                        background:#ED5351;
+                                                        color:#fff;
+                                                        margin-right:10px;
+                                                        padding:0 10px;
+                                                        border-radius:4px;
+                                                    }
+                                                }
+
                                         }
                                     }
 
@@ -2162,6 +2174,18 @@ body {
 
                                             @media (min-width: $screen-size-pc) {
                                               padding:22px 0;
+                                            }
+
+                                            span {
+                                                display:inline-block;
+
+                                                &.lock {
+                                                    background:#ED5351;
+                                                    color:#fff;
+                                                    margin-right:10px;
+                                                    padding:0 10px;
+                                                    border-radius:4px;
+                                                }
                                             }
 
                                         }
@@ -2816,8 +2840,151 @@ body {
                             }
                         }
 
-                        div.btns {
+
+                        div.reply-input {
+                            background:#FAFAFA;
+                            margin:40px 0 20px;
+                            padding:20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                margin:50px 0 30px;
+                            }
+
+                            h5 {
+                                margin:0 0 10px;
+                                font-size:15px;
+                                font-weight:500;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:18px;
+                                }
+
+                            }
+
+                            div.outline {
+                                position:relative;
+                                border:1px solid #CCCCCC;
+                                background:#fff;
+                                padding:0 0 60px;
+
+                                @media (min-width: $screen-size-pc) {
+                                    padding:0 180px 0 0;
+                                }
+
+                                textarea {
+                                    border:none;
+                                    width:100%;
+                                    padding:10px;
+                                    font-size:16px;
+                                    height:90px;
+                                    outline:none;
+                                    resize:none;
+                                }
+
+                                button {
+                                    position:absolute;
+                                    right:10px;
+                                    bottom:10px;
+                                    width:130px;
+                                    height:42px;
+                                    border:1px solid #0a79ce;
+                                    background:#fff;
+                                    color:#0a79ce;
+                                    font-size:15px;
+                                    font-weight:500px;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        font-size:18px;
+                                        width:140px;
+                                        height:50px;
+                                    }
+
+                                }
+
+                            }
+                        }
+
+                        div.reply-view {
+                            position:relative;
+                            border-bottom:1px solid #DFDFDF;
+                            margin:0;
+                            padding:20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                padding:34px;
+                            }
+
+
+                            h5 {
+                                margin:0 0 10px;
+                                font-size:15px;
+                                color:#555;
+                                font-weight:400;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:18px;
+                                    margin:0 0 16px;
+                                }
+
+                                span {
+                                    display:inline-block;
+                                    color:#fff;
+                                    background:#0a79ce;
+                                    line-height:28px;
+                                    padding:0 15px;
+                                    margin-right:8px;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        line-height:34px;
+                                    }
+                                }
+                            }
+
+                            &>span {
+                                font-size:16px;
+                                font-weight:500;
+                                word-break:keep-all;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:18px;
+                                }
+
+                            }
+
+                            div.tools {
+                                position:absolute;
+                                right:10px;
+                                top:20px;
+                                font-size:0;
+
+                                @media (min-width: $screen-size-pc) {
+                                    right:20px;
+                                    top:34px;
+                                }
+
+                                button {
+                                    font-size:15px;
+                                    color:#555;
+                                    border:none;
+                                    margin:0;
+                                    padding:0 10px;
+                                    line-height:1;
+                                    background:transparent;
+
+                                    &:first-of-type {
+                                        border-right:1px solid #999;
+                                    }
+
+
+                                }
+
+                            }
+                        }
+
+
+                        div.btn-set {
                             text-align: center;
+                            margin-top:30px;
 
                             button {
                                 font-size: 19px;
