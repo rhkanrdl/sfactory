@@ -3001,6 +3001,12 @@ body div#content.main section.main-news div.container div.news ul.list li {
   margin-bottom: 6px;
 }
 
+@media (min-width: 1200px) {
+  body div#content.main section.main-news div.container div.news ul.list li {
+    margin-bottom: 10px;
+  }
+}
+
 body div#content.main section.main-news div.container div.news ul.list li a {
   position: relative;
   display: block;
@@ -3017,6 +3023,11 @@ body div#content.main section.main-news div.container div.news ul.list li a {
     font-size: 18px;
     padding: 0 100px 0 0;
   }
+}
+
+body div#content.main section.main-news div.container div.news ul.list li a::before {
+  content: "·";
+  padding-right: 5px;
 }
 
 body div#content.main section.main-news div.container div.news ul.list li a i {
@@ -6864,6 +6875,77 @@ body div#content.sub section.sub-content div.container div.sub-greeting p {
   body div#content.sub section.sub-content div.container div.sub-greeting p {
     font-size: 16px;
   }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory {
+  padding: 0 15px 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory {
+    position: relative;
+    padding: 0 0 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory p.text {
+  margin: 0 0 20px;
+  word-break: keep-all;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory p.text {
+    font-size: 16px;
+    margin: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory ul.text {
+  border: 1px solid #ccc;
+  margin: 0 0 20px;
+  padding: 20px 20px 10px;
+  list-style: none;
+  background: #f4f4f4;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory ul.text {
+    margin: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory ul.text li {
+  position: relative;
+  padding: 0 0 10px 12px;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory ul.text li {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory ul.text li::before {
+  content: "·";
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory p.img {
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-factory p.img {
+    margin: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-factory p.img img {
+  max-width: 100%;
 }
 
 body div#content.sub section.sub-content div.container div.greeting-banner {

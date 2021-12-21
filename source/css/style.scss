@@ -967,6 +967,10 @@ body {
                             li {
                                 margin-bottom: 6px;
 
+                                @media (min-width: $screen-size-pc) {
+                                    margin-bottom:10px;
+                                }
+
                                 a {
                                     position: relative;
                                     display: block;
@@ -980,6 +984,11 @@ body {
                                     @media (min-width: $screen-size-pc) {
                                         font-size: 18px;
                                         padding: 0 100px 0 0;
+                                    }
+
+                                    &::before {
+                                        content:"·";
+                                        padding-right:5px;
                                     }
 
                                     i {
@@ -4717,6 +4726,69 @@ body {
                             @media (min-width: $screen-size-pc) {
                                 font-size: 16px;
 
+                            }
+                        }
+
+                    }
+
+                    div.sub-factory {
+                        padding: 0 15px 30px;
+
+                        @media (min-width: $screen-size-pc) {
+                            position: relative;
+                            padding: 0 0 40px;
+                        }
+                        
+                        
+                        p.text {
+                            margin:0 0 20px;
+                            word-break:keep-all;
+                            font-size:14px;
+
+                            @media (min-width: $screen-size-pc) {
+                                font-size:16px;
+                                margin:0 0 30px;
+                            }
+                        }
+
+                        ul.text {
+                            border:1px solid #ccc;
+                            margin:0 0 20px;
+                            padding:20px 20px 10px;
+                            list-style:none;
+                            background:#f4f4f4;
+
+                            @media (min-width: $screen-size-pc) {
+                                margin:0 0 30px;
+                            }
+
+                            li {
+                                position:relative;
+                                padding:0 0 10px 12px;
+                                font-size:14px;
+                                
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:16px;
+                                }
+
+                                &::before {
+                                    content:"·";
+                                    display:block;
+                                    position:absolute;
+                                    left:0;
+                                }
+                            }
+                        }
+
+                        p.img {
+                            margin:0 0 20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                margin:0 0 30px;
+                            }
+
+                            img {
+                                max-width:100%;
                             }
                         }
 
