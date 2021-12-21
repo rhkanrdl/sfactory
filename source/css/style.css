@@ -2708,24 +2708,42 @@ body div#content.main section.main-issue h3 small p span {
   }
 }
 
-body div#content.main section.main-issue a.more {
-  display: block;
-  font-size: 18px;
-  width: 240px;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-  margin: 40px auto 0;
-  border: 1px solid #fff;
+body div#content.main section.main-issue div.banner {
+  margin-top: 20px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.main section.main-issue a.more {
-    font-size: 22px;
-    width: 260px;
-    line-height: 78px;
-    margin: 90px auto 0;
+  body div#content.main section.main-issue div.banner {
+    margin-top: 100px;
+    text-align: center;
   }
+}
+
+body div#content.main section.main-issue div.banner a {
+  display: block;
+  background: #ccc;
+  margin: 0 auto;
+  width: 220px;
+  height: 60px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.main section.main-issue div.banner a {
+    display: inline-block;
+    margin: 0 30px;
+  }
+}
+
+body div#content.main section.main-issue div.banner a.banner1 {
+  background: url(../images/banner-v-w.svg) no-repeat center/120% auto;
+}
+
+body div#content.main section.main-issue div.banner a.banner2 {
+  background: url(../images/banner-jeju-w.svg) no-repeat center/100% auto;
+}
+
+body div#content.main section.main-issue div.banner a.banner3 {
+  background: url(../images/banner-tp-w.svg) no-repeat center/100% auto;
 }
 
 @media (min-width: 1200px) {
@@ -2824,6 +2842,7 @@ body div#content.main section.main-links div.container div.right {
 
 body div#content.main section.main-links div.container div.right a {
   display: inline-block;
+  vertical-align: top;
   height: 172px;
   font-size: 14px;
   padding-top: 120px;
@@ -6847,6 +6866,45 @@ body div#content.sub section.sub-content div.container div.sub-greeting p {
   }
 }
 
+body div#content.sub section.sub-content div.container div.greeting-banner {
+  margin-top: 20px;
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.greeting-banner {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.greeting-banner a {
+  display: block;
+  background: #ccc;
+  margin: 0 auto;
+  width: 220px;
+  height: 60px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.greeting-banner a {
+    display: inline-block;
+    margin: 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.greeting-banner a.banner1 {
+  background: url(../images/banner-v.svg) no-repeat center/120% auto;
+}
+
+body div#content.sub section.sub-content div.container div.greeting-banner a.banner2 {
+  background: url(../images/banner-jeju.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub section.sub-content div.container div.greeting-banner a.banner3 {
+  background: url(../images/banner-tp.svg) no-repeat center/100% auto;
+}
+
 body div#content.sub section.sub-content div.container div.sub-intro {
   padding: 0 15px;
 }
@@ -7083,6 +7141,56 @@ body div#content.sub section.sub-content div.container div.sub-location > ul li 
   body div#content.sub section.sub-content div.container div.sub-location > ul li strong i {
     font-size: 32px;
   }
+}
+
+body div#content.sub section.sub-content div.container div.sub-location dl dt {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a79ce;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-location dl dt {
+    font-size: 20px;
+    float: left;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-location dl dd {
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-location dl dd {
+    margin: 0 0 30px 120px;
+    padding: 4px 0 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-location dl dd ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+body div#content.sub section.sub-content div.container div.sub-location dl dd ul li {
+  position: relative;
+  padding: 0 0 5px 80px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-location dl dd ul li {
+    font-size: 16px;
+    padding: 0 0 10px 90px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-location dl dd ul li strong {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 body footer#footer {
