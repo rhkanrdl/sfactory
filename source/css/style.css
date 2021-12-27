@@ -3417,19 +3417,18 @@ body div#content.main section.main-factory div.container div.slider {
 body div#content.main section.main-factory div.container div.slider div.slide {
   display: inline-block;
   margin: 0 20px;
-  padding: 40px 10px;
+  padding: 10px 10px 40px;
   width: 278px;
   background: #fff;
   border: 1px solid #CCCCCC;
 }
 
 body div#content.main section.main-factory div.container div.slider div.slide p.image {
-  margin: 0 auto;
+  padding-top: 60%;
 }
 
 body div#content.main section.main-factory div.container div.slider div.slide p.image img {
-  width: 180px;
-  height: auto;
+  display: none;
 }
 
 body div#content.main section.main-factory div.container div.slider div.slide h4 {
@@ -3783,6 +3782,127 @@ body div#content.sub section.sub-content div.container h5.sstitle::before {
   body div#content.sub section.sub-content div.container h5.sstitle::before {
     top: 8px;
   }
+}
+
+body div#content.sub section.sub-content div.container h5.sstitle {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 0 0 0 30px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h5.sstitle {
+    font-size: 24px;
+  }
+}
+
+body div#content.sub section.sub-content div.container h5.sstitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: #7A94D3;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h5.sstitle::before {
+    top: 8px;
+  }
+}
+
+body div#content.sub section.sub-content div.container h5.sbtitle {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  margin: 0 0 20px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h5.sbtitle {
+    font-size: 24px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.terms p.info {
+  margin: 0;
+  text-align: right;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.terms p.info {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.terms p.text {
+  font-size: 15px;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.terms p.text {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0 0 0 20px;
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text > li {
+  position: relative;
+  padding: 0 0 8px 20px;
+  word-break: keep-all;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.terms ul.text > li {
+    padding: 0 0 10px 24px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text > li strong {
+  position: absolute;
+  font-weight: 400;
+  left: 0;
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text > li ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text > li ul > li {
+  position: relative;
+  padding: 0 0 8px 20px;
+  word-break: keep-all;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.terms ul.text > li ul > li {
+    padding: 0 0 6px 24px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.terms ul.text > li ul > li strong {
+  position: absolute;
+  font-weight: 400;
+  left: 0;
 }
 
 body div#content.sub section.sub-content div.container div.board-banner {
@@ -4304,7 +4424,7 @@ body div#content.sub section.sub-content div.container ul.boardList2 li div.box 
 body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.company {
   display: block;
   position: absolute;
-  left: 84px;
+  left: 0;
   bottom: 22px;
 }
 
@@ -4376,44 +4496,25 @@ body div#content.sub section.sub-content div.container ul.boardList2 li div.box 
   font-weight: 400;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 18px;
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.count {
+  display: none;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step {
+  body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.count {
     display: inline-block;
-    vertical-align: top;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 110px;
     padding: 22px 0;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step span {
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.count span {
   display: block;
   font-size: 15px;
   font-weight: 400;
-  padding: 5px 10px;
-  border-radius: 4px;
-  background: #ccc;
-  color: #fff;
-}
-
-body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step.step01 span {
-  background: #C94745;
-}
-
-body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.step.step02 span {
-  background: #0a79ce;
 }
 
 body div#content.sub section.sub-content div.container ul.boardList2 li div.box div strong {
@@ -5972,25 +6073,71 @@ body div#content.sub section.sub-content div.container div.calendar-tools div.ca
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.478' height='14.478' viewBox='0 0 14.478 14.478'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.478' height='14.478' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M14.038,11.918l-2.09-2.09a6.454,6.454,0,1,0-2.12,2.12l2.09,2.09a1.5,1.5,0,0,0,2.12-2.12M9.42,9.42a4.2,4.2,0,1,1,0-5.933,4.2,4.2,0,0,1,0,5.933' transform='translate(0 0)' fill='%232e3646'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/30% auto;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule {
+body div#content.sub section.sub-content div.container div.schedule {
   margin: 0 15px 20px;
   padding: 20px 20px 10px;
   background: #eee;
-  list-style: none;
   border-radius: 10px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.schedule {
+  body div#content.sub section.sub-content div.container div.schedule {
     margin: 0 0 30px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li {
+body div#content.sub section.sub-content div.container div.schedule strong {
+  display: block;
+  position: relative;
+  font-size: 18px;
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #222;
+}
+
+body div#content.sub section.sub-content div.container div.schedule strong button {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  border: none;
+  padding: 0;
+  font-weight: 400;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container div.schedule strong button i {
+  font-size: 16px;
+}
+
+body div#content.sub section.sub-content div.container div.schedule strong button::after {
+  content: "접기";
+  font-size: 16px;
+}
+
+body div#content.sub section.sub-content div.container div.schedule.hide {
+  height: 62px;
+  overflow: hidden;
+}
+
+body div#content.sub section.sub-content div.container div.schedule.hide strong {
+  border: none;
+}
+
+body div#content.sub section.sub-content div.container div.schedule.hide strong button::after {
+  content: "펼치기";
+}
+
+body div#content.sub section.sub-content div.container div.schedule ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body div#content.sub section.sub-content div.container div.schedule ul li {
   margin: 0 0 10px;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li span {
+body div#content.sub section.sub-content div.container div.schedule ul li span {
   display: inline-block;
   background: #fff;
   width: 130px;
@@ -6001,35 +6148,35 @@ body div#content.sub section.sub-content div.container ul.schedule li span {
   color: #FFF;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li p {
+body div#content.sub section.sub-content div.container div.schedule ul li p {
   margin: 0;
   font-size: 16px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.schedule li p {
+  body div#content.sub section.sub-content div.container div.schedule ul li p {
     display: inline-block;
     margin-left: 20px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li.schedule01 span {
+body div#content.sub section.sub-content div.container div.schedule ul li.schedule01 span {
   background: #0a79ce;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li.schedule02 span {
+body div#content.sub section.sub-content div.container div.schedule ul li.schedule02 span {
   background: #4D468B;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li.schedule03 span {
+body div#content.sub section.sub-content div.container div.schedule ul li.schedule03 span {
   background: #8abb2a;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li.schedule04 span {
+body div#content.sub section.sub-content div.container div.schedule ul li.schedule04 span {
   background: #FFA301;
 }
 
-body div#content.sub section.sub-content div.container ul.schedule li.schedule05 span {
+body div#content.sub section.sub-content div.container div.schedule ul li.schedule05 span {
   background: #00CBD2;
 }
 
@@ -6709,6 +6856,20 @@ body div#content.sub section.sub-content div.container div.join ul li p.small2 {
   }
 }
 
+body div#content.sub section.sub-content div.container div.join ul li p.tel input {
+  display: inline-block;
+  width: calc((100% - 40px) / 3);
+}
+
+body div#content.sub section.sub-content div.container div.join ul li p.tel u {
+  display: inline-block;
+  line-height: 44px;
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
 body div#content.sub section.sub-content div.container div.join ul li p.sub {
   text-align: right;
   padding: 18px 0 0;
@@ -7354,6 +7515,38 @@ body div#content.sub section.sub-content div.container div.sub-intro img {
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.sub-intro img {
     margin-bottom: 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro div.video {
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro div.video {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro div.video {
+    padding: 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.sub-intro div.video iframe {
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.sub-intro div.video iframe {
+    width: 800px;
+    height: 500px;
   }
 }
 

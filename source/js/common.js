@@ -131,6 +131,10 @@ function menu() {
         $("#header").addClass("on");
     });
 
+    $(".schedule strong button").on("click", function(){
+        $(this).parent().parent().toggleClass("hide");
+    });
+
 }
 
 /* ----- cover image ----- */ 
@@ -142,6 +146,10 @@ function coverimage() {
     });
 
     $(".main-news .news p.image").each(function(){
+        $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
+    });
+
+    $(".main-factory p.image").each(function(){
         $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
     });
 
