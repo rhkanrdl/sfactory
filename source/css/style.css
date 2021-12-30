@@ -5869,6 +5869,28 @@ body div#content.sub section.sub-content div.container div.find fieldset div.fin
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
 }
 
+body div#content.sub section.sub-content div.container div.find fieldset div.find-form dl dd.wBtn {
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container div.find fieldset div.find-form dl dd.wBtn input[type="text"] {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 110px);
+  margin-right: 10px;
+}
+
+body div#content.sub section.sub-content div.container div.find fieldset div.find-form dl dd.wBtn button {
+  vertical-align: top;
+  width: 100px;
+  font-size: 14px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #111C2A;
+  color: #fff;
+}
+
 body div#content.sub section.sub-content div.container div.find fieldset div.find-form button.btn.main {
   border: none;
   width: 100%;
