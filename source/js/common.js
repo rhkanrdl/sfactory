@@ -135,6 +135,13 @@ function menu() {
         $(this).parent().parent().toggleClass("hide");
     });
 
+    $(".boardList3 div.file button").on("click", function(){
+        $(".boardList3 div.file button").removeClass("on");
+        $(this).addClass("on");
+        $(".boardList3 div.file ul.files").removeClass("on");
+        $(this).parent().find("ul.files").addClass("on");
+    });
+
 }
 
 /* ----- cover image ----- */ 

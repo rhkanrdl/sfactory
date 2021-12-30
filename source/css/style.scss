@@ -2580,7 +2580,7 @@ body {
 
                         }
 
-                        li {
+                        &>li {
                             border-bottom: 1px solid #CCCCCC;
                             position: relative;
 
@@ -2766,7 +2766,7 @@ body {
                                       @media (min-width: $screen-size-pc) {
                                       }
 
-                                      a {
+                                      button {
                                         display:block;
                                         background:#efefef;
                                         border:1px solid #ccc;
@@ -2786,6 +2786,37 @@ body {
                                           font-weight:inherit;
                                         }
 
+                                        &.on {
+                                            background:#555;
+                                            color:#fff;
+                                        }
+
+                                      }
+
+                                      ul.files {
+                                          display:none;
+                                          list-style:none;
+                                          margin:0;
+                                          padding:0;
+                                          position:absolute;
+                                          margin-top:10px;
+                                          z-index:2;
+                                          right:0;
+                                          border:1px solid #ccc;
+                                          padding:20px;
+                                          background:#fff;
+                                          @include drop-shadow($x: 0, $y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+                                          
+
+                                          &.on {
+                                              display:block;
+                                          }
+
+                                          li {
+                                              a {
+                                                color:#0a79ce;
+                                              }
+                                          }
                                       }
                                   }
 

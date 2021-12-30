@@ -4611,56 +4611,56 @@ body div#content.sub section.sub-content div.container ul.boardList3 {
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li {
+body div#content.sub section.sub-content div.container ul.boardList3 > li {
   border-bottom: 1px solid #CCCCCC;
   position: relative;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box {
   padding: 20px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box {
     padding: 22px 0;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div {
   margin: 0;
   position: relative;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company {
   display: block;
   margin: 0 0 10px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company {
     display: block;
     position: relative;
     padding: 0 0 10px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company strong {
   display: none;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company span {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company span {
   display: inline-block;
   font-size: 20px;
   font-weight: 600;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company span {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company span {
     font-size: 26px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company i {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company i {
   display: block;
   margin: 6px 0 0;
   color: #0a79ce;
@@ -4668,149 +4668,149 @@ body div#content.sub section.sub-content div.container ul.boardList3 li div.box 
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.company i {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.company i {
     font-size: 16px;
     font-weight: 600;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part {
   display: block;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part strong {
   display: inline-block;
   font-size: 15px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part strong {
     font-size: 16px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part strong::after {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part strong::after {
   content: " : ";
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.part span {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.part span {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo {
   display: block;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo strong {
   display: inline-block;
   font-size: 15px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo strong {
     font-size: 16px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo strong::after {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo strong::after {
   content: " : ";
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.ceo span {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.ceo span {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name {
   display: block;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name strong {
   display: inline-block;
   font-size: 15px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name strong {
     font-size: 16px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name strong::after {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name strong::after {
   content: " : ";
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.name span {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.name span {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date {
   display: block;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date strong {
   display: inline-block;
   font-size: 15px;
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date strong {
     font-size: 16px;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date strong::after {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date strong::after {
   content: " : ";
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.date span {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.date span {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file {
   display: block;
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file button {
   display: block;
   background: #efefef;
   border: 1px solid #ccc;
@@ -4823,13 +4823,42 @@ body div#content.sub section.sub-content div.container ul.boardList3 li div.box 
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a {
+  body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file button {
     bottom: 0;
   }
 }
 
-body div#content.sub section.sub-content div.container ul.boardList3 li div.box div.file a strong {
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file button strong {
   font-weight: inherit;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file button.on {
+  background: #555;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file ul.files {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  margin-top: 10px;
+  z-index: 2;
+  right: 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file ul.files.on {
+  display: block;
+}
+
+body div#content.sub section.sub-content div.container ul.boardList3 > li div.box div.file ul.files li a {
+  color: #0a79ce;
 }
 
 body div#content.sub section.sub-content div.container ul.galleryList {
