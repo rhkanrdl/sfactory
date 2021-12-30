@@ -6143,16 +6143,16 @@ body div#content.sub section.sub-content div.container div.schedule strong butto
   font-size: 16px;
 }
 
-body div#content.sub section.sub-content div.container div.schedule.hide {
+body div#content.sub section.sub-content div.container div.schedule.off {
   height: 62px;
   overflow: hidden;
 }
 
-body div#content.sub section.sub-content div.container div.schedule.hide strong {
+body div#content.sub section.sub-content div.container div.schedule.off strong {
   border: none;
 }
 
-body div#content.sub section.sub-content div.container div.schedule.hide strong button::after {
+body div#content.sub section.sub-content div.container div.schedule.off strong button::after {
   content: "펼치기";
 }
 
