@@ -132,7 +132,7 @@ function menu() {
     });
 
     $(".schedule strong button").on("click", function(){
-        $(this).parent().parent().toggleClass("hide");
+        $(this).parent().parent().toggleClass("off");
     });
 
     $(".boardList3 div.file button").on("click", function(){
