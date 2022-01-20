@@ -4408,6 +4408,12 @@ body {
                             @media (min-width: $screen-size-pc) {
                                 height: 200px;
                             }
+
+                            pre{
+                                overflow: auto;
+                                white-space: pre-wrap;
+                            
+                            }
                         }
 
                         p.check {
