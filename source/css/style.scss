@@ -1843,6 +1843,8 @@ body {
 
                     div.board-banner {
                       padding:0 15px;
+                      font-size:0;
+                      text-align:center;
 
                       @media (min-width: $screen-size-pc) {
                           padding: 0;
@@ -1850,6 +1852,18 @@ body {
 
                       img {
                         max-width:100%;
+                        margin:0 0 5px;
+
+                        @media (min-width: $screen-size-pc) {
+                            margin:0 5px;
+                        }
+                      }
+
+                      p {
+                          font-size:16px;
+                          margin:10px 0 20px;
+                          text-align:left;
+                          color:#0066cc;
                       }
                     }
 
@@ -2313,6 +2327,7 @@ body {
                                     position: relative;
                                     text-align: center;
 
+
                                     &.num {
                                         display: none;
 
@@ -2336,14 +2351,14 @@ body {
                                         width: calc(100vw - 160px);
 
                                         @media (min-width: $screen-size-pc) {
-                                            width: calc(100% - 530px);
+                                            width: calc(100% - 406px);
                                         }
 
                                         h5 {
                                             font-size: 17px;
                                             font-weight: 400;
                                             margin: 0;
-                                            padding: 22px 0 52px;
+                                            padding: 22px 0;
                                             color: #222;
                                             word-break: keep-all;
                                             overflow: hidden;
@@ -2369,33 +2384,6 @@ body {
                                         }
                                     }
 
-                                    &.company {
-                                      display: block;
-                                      position:absolute;
-                                      left: 0;
-                                      bottom:22px;
-                                      
-
-                                      @media (min-width: $screen-size-pc) {
-                                          display: inline-block;
-                                          vertical-align: top;
-                                          position: relative;
-                                          bottom: 0;
-                                          left: 0;
-                                          align-items: center;
-                                          width: 110px;
-                                          padding: 22px 0;
-                                      }
-
-                                      span {
-                                          display: block;
-                                          font-size: 15px;
-                                          font-weight: 400;
-
-                                          @media (min-width: $screen-size-pc) {}
-                                      }
-                                  }
-
                                     &.name {
                                         display: none;
 
@@ -2420,16 +2408,17 @@ body {
                                     }
 
                                     &.date {
-                                        display: inline-block;
-                                        position: absolute;
-                                        top: 0;
-                                        right: 0;
-                                        width: 110px;
-                                        padding: 22px 0;
+                                        display:none;
 
                                         @media (min-width: $screen-size-pc) {
-                                          position:relative;
-                                          vertical-align:top;
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            position: relative;
+                                            bottom: 0;
+                                            left: 0;
+                                            align-items: center;
+                                            width: 110px;
+                                            padding: 22px 0;
                                         }
 
                                         span {
@@ -2442,15 +2431,22 @@ body {
                                     }
 
 
-                                    &.count {
-                                        display:none;
+                                    &.status {
+                                        display: inline-block;
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        width: 110px;
+                                        padding: 22px 0;
 
                                         @media (min-width: $screen-size-pc) {
 
                                             display: inline-block;
-                                            position: absolute;
-                                            top: 0;
-                                            right: 0;
+                                            vertical-align: top;
+                                            position: relative;
+                                            bottom: 0;
+                                            left: 0;
+                                            align-items: center;
                                             width: 110px;
                                             padding: 22px 0;
 
@@ -2461,8 +2457,13 @@ body {
                                             display: block;
                                             font-size: 15px;
                                             font-weight: 400;
+                                            color:#666;
 
                                             @media (min-width: $screen-size-pc) {}
+
+                                            &.step02 {
+                                                color:#0066cc;
+                                            }
                                         }
                                     }
                                     strong {
@@ -3711,12 +3712,20 @@ body {
 
                                 dl {
                                     dt {
-                                        float: left;
-                                        line-height: 50px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            line-height: 50px;
+                                            float: left;
+                                        }
+        
                                     }
 
                                     dd {
-                                        margin: 0 0 10px 60px;
+                                        margin:10px 0 20px;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            margin: 0 0 10px 60px;
+                                        }
 
                                         input[type="text"] {
                                             display: block;
@@ -3732,6 +3741,7 @@ body {
                                                 background: #efefef;
                                                 @include drop-shadow($x: 0, $y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
                                             }
+
                                         }
 
                                         select {
@@ -3763,6 +3773,38 @@ body {
                                             button {
                                                 vertical-align:top;
                                                 width:100px;
+                                                font-size: 14px;
+                                                height: 50px;
+                                                border:none;
+                                                border-radius:5px;
+                                                background:#111C2A;
+                                                color:#fff;
+                                            }
+                                        }
+
+                                        &.tel {
+                                            font-size:0;
+                                            white-space:nowrap;
+
+                                            input[type="text"] {
+                                                display:inline-block;
+                                                vertical-align:top;
+                                                width:calc((100% - 130px) / 3);
+                                            }
+
+                                            u {
+                                                display:inline-block;
+                                                width:10px;
+                                                font-size:14px;
+                                                text-align:center;
+                                                line-height:48px;
+                                                text-decoration:none;
+                                            }
+
+                                            button {
+                                                vertical-align:top;
+                                                width:100px;
+                                                margin-left:10px;
                                                 font-size: 14px;
                                                 height: 50px;
                                                 border:none;
@@ -5689,15 +5731,58 @@ body {
             font-size: 14px;
             text-align: center;
             padding-bottom: 30px;
+            padding:20px 0 0;
 
             @media (min-width: $screen-size-pc) {
                 position: relative;
                 text-align: left;
 
-                padding: 40px 20px 50px 330px;
+                padding: 40px 20px 50px;
             }
 
+
+
+            div.banner {
+                margin-top:20px;
+
+                @media (min-width: $screen-size-pc) {
+                    position:absolute;
+                    right:0;
+                    top:10px;
+                }
+
+                a {
+                    display:block;
+                    background:#ccc;
+                    margin:0 auto;
+                    width:160px;
+                    height:40px;
+                    font-size:0;
+
+                    @media (min-width: $screen-size-pc) {
+                        display:inline-block;
+                        margin:0 0 0 20px;
+
+                    }
+
+                    &.banner1 {
+                        background:url(../images/banner-v-w.svg) no-repeat center / 122% auto;
+                    }
+
+                    &.banner2 {
+                        background:url(../images/banner-jeju-w.svg) no-repeat center / 100% auto;
+                    }
+
+                    &.banner3 {
+                        background:url(../images/banner-tp-w.svg) no-repeat center / 100% auto;
+                    }
+                }
+            }
+
+
             h2 {
+                display:none;
+
                 font-size: 0;
                 width: 204px;
                 height: 36px;
@@ -5773,7 +5858,7 @@ body {
                 @media (min-width: $screen-size-pc) {
                     position: absolute;
                     z-index: 401;
-                    top: 10px;
+                    top: 90px;
                     right: 0;
                 }
 
