@@ -3960,10 +3960,16 @@ body div#content.sub section.sub-content div.container ul.boardList2 li div.box 
   display: block;
   font-size: 15px;
   font-weight: 400;
-  color: #666;
+  color: #888;
 }
 body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.status span.step02 {
   color: #0066cc;
+}
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.status span.step03 {
+  color: #C94745;
+}
+body div#content.sub section.sub-content div.container ul.boardList2 li div.box div.status span.step04 {
+  color: #222;
 }
 body div#content.sub section.sub-content div.container ul.boardList2 li div.box div strong {
   display: none;

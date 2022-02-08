@@ -2471,12 +2471,20 @@ body {
                                             display: block;
                                             font-size: 15px;
                                             font-weight: 400;
-                                            color:#666;
+                                            color:#888;
 
                                             @media (min-width: $screen-size-pc) {}
 
                                             &.step02 {
                                                 color:#0066cc;
+                                            }
+
+                                            &.step03 {
+                                                color:#C94745;
+                                            }
+
+                                            &.step04 {
+                                                color:#222;
                                             }
                                         }
                                     }
