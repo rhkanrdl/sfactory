@@ -2367,12 +2367,12 @@ body div#content.main section.main-issue::before {
 }
 body div#content.main section.main-issue h3 {
   text-align: center;
-  margin: 50px 0 0;
+  margin: 120px 0 0;
   line-height: 1.4;
 }
 @media (min-width: 1200px) {
   body div#content.main section.main-issue h3 {
-    margin: 140px 0 0;
+    margin: 220px 0 0;
   }
 }
 body div#content.main section.main-issue h3 > u {
